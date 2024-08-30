@@ -1,0 +1,533 @@
+@media(max-width: 2560px) {
+
+}
+
+@media(max-width: 2048px) { 
+
+}
+
+@media(max-width: 1920px) {
+
+}
+
+@media(max-width: 1440px) {
+
+}
+
+@media(max-width: 1280px) {
+    
+}
+
+@media(max-width: 1153px) { 
+
+    .advertising__title {
+        width: 50%;
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .about__img {
+        width: 50%;
+    }
+
+    .products__choice {
+        justify-content: center;
+    }
+
+    .products__choice_item {
+        width: 40%;
+    }
+
+    .reviews__statistics_card {
+        width: 210px;
+        height: 210px;
+    }
+
+    .advantages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages__desc {
+        align-items: center;
+    }
+
+    .advantages__title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .subscribe__desc {
+        justify-content: center;
+    }
+
+    .footer__social {
+        width: 490px;
+    }
+}
+
+@media(max-width: 1025px) {
+
+    .header__nav_toggle,
+    .header__nav_close {
+        display: block;
+    }
+
+    .header__nav {
+        display: block;
+        background-color: rgba(39, 76, 91, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        margin-left: 0;
+        padding: 12% 10% 12% 5%;
+
+        z-index: 999;
+    }
+
+    #header__nav_toggle:checked ~ .header__nav {
+        transform: translateX(-100%);
+    }
+
+    .header__nav_list {
+        flex-direction: column;
+        gap: 20px;   
+    }
+
+    .header__nav_link {
+        color: #fff;
+    }
+
+    .header__nav_item:last-child {
+        margin-left: 0;
+    }
+
+    .header__nav_link.active,
+    .header__nav_link:hover {
+        color: #31dfdfb7
+    }
+
+    .promo__title {
+        width: 60%;
+    }
+
+    .advertising__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 100px 0;
+    }
+
+    .advertising__banner,
+    .advertising__banner1 {
+        width: 70%;
+    }
+    
+    .about .container {
+       flex-direction: column;
+        padding: 100px 0;
+    }
+
+    .products .container {
+        padding: 80px 0;
+    }
+
+    .reviews__statistics {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .range__item_link {
+        width: 240px;
+    }
+
+    .subscribe__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .footer .container {
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+   
+}
+
+@media(max-width: 801px) {
+
+    .promo {
+        background-position: center;
+    }
+
+    .promo__title {
+        width: 50%;
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .products__choice_item {
+        width: 60%;
+    }
+
+    .reviews {
+        padding: 80px 0;
+    }
+
+    .reviews__statistics {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .advantages__img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .advantages__img_image {
+        width: 80%;
+    }
+
+    .offer {
+        padding: 90px 0;
+    }
+
+    .offer__desc {
+        flex-wrap: wrap;
+    }
+
+    .offer__info {
+        margin-bottom: 20px;
+    }
+
+    .range {
+        padding: 50px 0;
+    }
+
+    .range__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .subscribe__desc {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .subscribe__title {
+        text-align: center;
+        width: 60%;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .footer {
+        padding: 0 0 40px 0;
+    }
+
+    .footer .container {
+        gap: 60px;
+    }
+
+    .footer__contacts {
+        align-items: flex-start;
+        align-items: center;
+    }
+
+    .footer__social {
+        order: -1;
+    }
+    
+}
+
+@media(max-width: 768px) {
+
+    .advertising__banner,
+    .advertising__banner1 {
+        width: 100%;
+    }
+    
+}
+
+@media(max-width: 640px) {
+
+    .promo__title {
+        width: 70%;
+    }
+
+    .advertising__content {
+        padding: 50px 0;
+    }
+
+    .advertising__title {
+        width: 60%;
+    }
+
+    .about .container {
+        padding: 50px 0;
+    }
+
+    .products .container {
+        padding: 50px 0;
+    }
+
+    .products__choice_item {
+        width: 70%;
+    }
+    
+    .reviews {
+        padding: 50px 0;
+    }
+
+    .reviews__title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .advantages__img_image {
+        width: 60%;
+    }
+
+    .advantages__desc {
+        margin-left: 0;
+    }
+
+    .advantages__item_title {
+        text-align: center;
+    }
+    
+    .advantages__item_text {
+        text-align: center;
+    }
+
+    .subscribe__form {
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width: 481px) {
+
+    .header .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .promo__title {
+        width: 90%;
+    }
+
+    button {
+        flex-wrap: wrap;
+        padding: 15px 9px 15px 25px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .advertising__title {
+        width: 50%;
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .about__img {
+        width: 70%;
+    }
+
+    .about__title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .products__choice_item {
+        width: 90%;
+    }
+
+    .offer {
+        padding: 40px 0;
+    }
+
+    .offer__title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .advantages__desc {
+        padding: 30px 50px 30px 50px;
+        min-width: 480px;
+    }
+
+    .advantages__title {
+        width: 60%;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+}
+
+@media(max-width: 425px) { 
+
+    .advertising__title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .about__adv_text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .about__adv_title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .products__choice_item {
+        width: 100%;
+    }
+
+    .subscribe__title {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+}
+
+@media(max-width: 375px) { 
+
+    .promo__title {
+        width: 70%;
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .advertising__title {
+        width: 60%;
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .products__choice_info {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .products__choice_price.price {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .advantages__desc {
+        min-width: 420px;
+    }
+
+    .advantages__suptitle {
+        font-size: 30px;
+        line-height: 55px;
+    }
+    
+    .advantages__title {
+        width: 90%;
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .subscribe__title {
+        font-size: 34px;
+        line-height: 35px;
+    }
+
+    .subscribe__field {
+        width: 280px;
+    }
+
+}
+
+@media(max-width: 320px) {
+
+    .promo__title {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    button {
+        padding: 10px 7px 10px 15px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .advertising__suptitle {
+        margin-left: 10px;
+    }
+
+    .advertising__title {
+        width: 60%;
+        font-size: 26px;
+        line-height: 34px;
+        margin-left: 10px;
+    }
+
+    .about__img {
+        width: 80%;
+    }
+
+    .reviews__suptitle {
+        font-size: 30px;
+        line-height: 56px;
+    }
+    
+    .reviews__title {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .reviews__text {
+        color: #000000;
+    }
+
+    .reviews__statistics_card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .offer__suptitle {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .offer__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .advantages__desc {
+        min-width: 380px;
+    }
+
+    .advantages__item_title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .advantages__item_text {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .subscribe__title {
+        font-size: 32px;
+        line-height: 28px;
+    }
+
+    .subscribe__field {
+        width: 260px;
+    }
+
+    .footer__social_list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+}
